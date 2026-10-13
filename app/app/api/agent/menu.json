@@ -1,0 +1,325 @@
+{
+  "restaurantName": "Chowry",
+  "currencySymbol": "₦",
+  "pricingModel": {
+    "ricePricePerSpoon": 600,
+    "note": "All rice dishes are priced at ₦600 per spoon."
+  },
+  "categories": [
+    {
+      "categoryId": "rice_meals",
+      "categoryName": "Rice Dishes",
+      "items": [
+        {
+          "id": "jollof_rice",
+          "name": "Signature Jollof Rice",
+          "description": "Richly spiced smoky party jollof rice.",
+          "pricePerUnit": 600,
+          "unit": "spoon",
+          "available": true
+        },
+        {
+          "id": "fried_rice",
+          "name": "Special Fried Rice",
+          "description": "Loaded savory fried rice mixed with sweet corn, liver, and crisp veggies.",
+          "pricePerUnit": 600,
+          "unit": "spoon",
+          "available": true
+        },
+        {
+          "id": "white_rice",
+          "name": "Steamed White Rice & Stew",
+          "description": "Fluffy steamed white rice served with signature house pepper stew.",
+          "pricePerUnit": 600,
+          "unit": "spoon",
+          "available": true
+        },
+        {
+          "id": "ofada_rice",
+          "name": "Local Ofada Rice",
+          "description": "Unpolished aromatic local rice paired with spicy bleached-oil Ayamase sauce.",
+          "pricePerUnit": 600,
+          "unit": "spoon",
+          "available": true
+        },
+        {
+          "id": "native_jollof_rice",
+          "name": "Native Palm Oil Rice",
+          "description": "Traditional village rice cooked with palm oil, smoked fish, and scent leaves.",
+          "pricePerUnit": 600,
+          "unit": "spoon",
+          "available": true
+        }
+      ]
+    },
+    {
+      "categoryId": "soups_and_swallows",
+      "categoryName": "Traditional Soups & Swallows",
+      "items": [
+        {
+          "id": "egusi_soup",
+          "name": "Special Egusi Soup",
+          "description": "Ground melon seeds cooked with stockfish, dry fish, and bitterleaf.",
+          "price": 2000,
+          "available": true
+        },
+        {
+          "id": "efo_riro",
+          "name": "Rich Efo Riro",
+          "description": "Lagos-style spinach vegetable stew cooked with iru, ponmo, and dried prawns.",
+          "price": 2000,
+          "available": true
+        },
+        {
+          "id": "ogbono_soup",
+          "name": "Ogbono & Okra Soup",
+          "description": "Silky wild mango seed soup cooked with beef stock and dried fish.",
+          "price": 1800,
+          "available": true
+        },
+        {
+          "id": "pounded_yam",
+          "name": "Pounded Yam Portion",
+          "description": "Smooth, stretchy, freshly pounded yam.",
+          "price": 800,
+          "available": true
+        },
+        {
+          "id": "amala_dudu",
+          "name": "Soft Amala Dudu",
+          "description": "Traditional dark yam flour swallow.",
+          "price": 600,
+          "available": true
+        },
+        {
+          "id": "semo_eba",
+          "name": "Garri (Eba) / Semovita",
+          "description": "Choice of freshly made yellow garri eba or smooth semovita.",
+          "price": 500,
+          "available": true
+        }
+      ]
+    },
+    {
+      "categoryId": "proteins",
+      "categoryName": "Proteins & Meats",
+      "items": [
+        {
+          "id": "peppered_chicken",
+          "name": "Peppered Chicken",
+          "description": "Juicy fried chicken tossed in hot spicy pepper sauce.",
+          "price": 1800,
+          "available": true
+        },
+        {
+          "id": "peppered_turkey",
+          "name": "Peppered Turkey",
+          "description": "Large succulent turkey portion glazed in signature sauce.",
+          "price": 2500,
+          "available": true
+        },
+        {
+          "id": "fried_fish",
+          "name": "Crispy Fried Croaker Fish",
+          "description": "Seasoned fish fillet fried to golden perfection.",
+          "price": 1500,
+          "available": true
+        },
+        {
+          "id": "assorted_meat",
+          "name": "Assorted Meat (Bokoto/Shaki/Beef)",
+          "description": "Tender cut of cow tripe, beef, or cow foot simmered in pepper broth.",
+          "price": 1000,
+          "available": true
+        },
+        {
+          "id": "peppered_goat_meat",
+          "name": "Peppered Goat Meat (Asun Style)",
+          "description": "Smoky, spicy bite-sized goat meat tossed with scotch bonnets and onions.",
+          "price": 2200,
+          "available": true
+        },
+        {
+          "id": "fried_ponmo",
+          "name": "Peppered Ponmo",
+          "description": "Chewy cowskin slow-cooked in rich pepper sauce.",
+          "price": 800,
+          "available": true
+        }
+      ]
+    },
+    {
+      "categoryId": "sides",
+      "categoryName": "Sides & Extras",
+      "items": [
+        {
+          "id": "extra_dodo",
+          "name": "Fried Plantain (Dodo)",
+          "description": "Sweet ripe golden fried plantain portion.",
+          "price": 700,
+          "available": true
+        },
+        {
+          "id": "coleslaw",
+          "name": "Fresh Creamy Coleslaw",
+          "description": "Crisp cabbage and carrots tossed in sweet salad dressing.",
+          "price": 800,
+          "available": true
+        },
+        {
+          "id": "moi_moi",
+          "name": "Steamed Egg & Fish Moi-Moi",
+          "description": "Savory steamed bean pudding enriched with boiled egg and fish flakes.",
+          "price": 1000,
+          "available": true
+        }
+      ]
+    },
+    {
+      "categoryId": "beverages",
+      "categoryName": "Beverages & Bar",
+      "items": [
+        {
+          "id": "coca_cola",
+          "name": "Coca-Cola (50cl Pet)",
+          "description": "Classic chilled Coca-Cola.",
+          "price": 500,
+          "available": true
+        },
+        {
+          "id": "fanta_orange",
+          "name": "Fanta Orange (50cl Pet)",
+          "description": "Refreshing sparkling orange drink.",
+          "price": 500,
+          "available": true
+        },
+        {
+          "id": "sprite",
+          "name": "Sprite (50cl Pet)",
+          "description": "Crisp lemon-lime flavored soft drink.",
+          "price": 500,
+          "available": true
+        },
+        {
+          "id": "schweppes_bitter_lemon",
+          "name": "Schweppes Bitter Lemon",
+          "description": "Tangy and refreshing sparkling mixer.",
+          "price": 600,
+          "available": false
+        },
+        {
+          "id": "teem_soda",
+          "name": "Teem Soda Water",
+          "description": "Chilled sparkling soda water.",
+          "price": 500,
+          "available": true
+        },
+        {
+          "id": "bottled_water",
+          "name": "Premium Bottled Water (75cl)",
+          "description": "Pure chilled spring water.",
+          "price": 300,
+          "available": true
+        },
+        {
+          "id": "zobo_drink",
+          "name": "Chilled House Zobo Drink",
+          "description": "Natural hibiscus infusion with ginger, pineapple, and cloves.",
+          "price": 1000,
+          "available": true
+        },
+        {
+          "id": "kunu_aya",
+          "name": "Chilled Kunu Aya (Tigernut Milk)",
+          "description": "Creamy blend of tigernuts, dates, and coconut.",
+          "price": 1200,
+          "available": false
+        },
+        {
+          "id": "maltina",
+          "name": "Maltina Can",
+          "description": "Nourishing non-alcoholic malt beverage.",
+          "price": 800,
+          "available": true
+        },
+        {
+          "id": "amstel_malta",
+          "name": "Amstel Malta",
+          "description": "Premium low-sugar malt drink.",
+          "price": 800,
+          "available": true
+        },
+        {
+          "id": "chivita_orange",
+          "name": "Chivita 100% Orange Juice (1L)",
+          "description": "Pure real orange juice box.",
+          "price": 2000,
+          "available": true
+        },
+        {
+          "id": "star_radler",
+          "name": "Star Radler Citrus (45cl)",
+          "description": "Refreshing lager beer infused with natural citrus juice.",
+          "price": 1200,
+          "available": true
+        },
+        {
+          "id": "heineken",
+          "name": "Heineken Lager Beer (60cl)",
+          "description": "Chilled premium Dutch malt lager.",
+          "price": 1500,
+          "available": true
+        },
+        {
+          "id": "guinness_extra_smooth",
+          "name": "Guinness Stout (60cl)",
+          "description": "Rich, dark, iconic stout beer.",
+          "price": 1600,
+          "available": true
+        },
+        {
+          "id": "trophy_lager",
+          "name": "Trophy Lager Beer",
+          "description": "Crisp local lager beer.",
+          "price": 1200,
+          "available": false
+        },
+        {
+          "id": "orijin_bitters",
+          "name": "Orijin Herbal Spirit (75cl)",
+          "description": "Bittersweet African herbal spirit drink.",
+          "price": 2500,
+          "available": true
+        },
+        {
+          "id": "campari",
+          "name": "Campari Aperitif (Bottle)",
+          "description": "Classic red bitter aperitif.",
+          "price": 18000,
+          "available": false
+        },
+        {
+          "id": "jameson_whiskey",
+          "name": "Jameson Irish Whiskey (70cl)",
+          "description": "Triple-distilled smooth Irish whiskey bottle.",
+          "price": 22000,
+          "available": true
+        },
+        {
+          "id": "carlo_rossi_wine",
+          "name": "Carlo Rossi Red Wine (75cl)",
+          "description": "Smooth, rich red wine.",
+          "price": 8500,
+          "available": true
+        },
+        {
+          "id": "veuve_clicquot",
+          "name": "Veuve Clicquot Brut Champagne",
+          "description": "Premium French champagne.",
+          "price": 85000,
+          "available": false
+        }
+      ]
+    }
+  ]
+}

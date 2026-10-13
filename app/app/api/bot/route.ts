@@ -1,40 +1,3 @@
-// import { NextResponse } from 'next/server';
-// import { Bot } from '../agent/bot';
-
-
-
-// export async function POST(request: Request) {
-//   try {
-//     // Read uppercase env variables or fallback to lowercase if defined
-//     const botToken = process.env.TOKEN;
-//     const groqKey = process.env.GROQ_KEY;
-//     if (!botToken || !groqKey) {
-//       console.error('[Configuration Error]: Missing Telegram Bot Token or Groq API Key in environment variables.');
-//       return NextResponse.json(
-//         { error: 'Server misconfiguration: Missing API keys' }, 
-//         { status: 500 }
-//       );
-//     }
-
-//     const update = await request.json();
-
-//     // Instantiate Bot per execution (or inside request scope)
-//     const bot = new Bot(botToken, groqKey);
-//     await bot.processUpdate(update);
-
-//     console.log('The update was processed successfully');
-//     return NextResponse.json({ status: 'ok' });
-
-//   } catch (error) {
-//     console.error('Error processing update:', error);
-//     return NextResponse.json(
-//       { error: 'Internal Server Error', details: error instanceof Error ? error.message : String(error) }, 
-//       { status: 500 }
-//     );
-//   }
-// }
-
-
 import { NextResponse } from 'next/server';
 import { Bot } from '../agent/bot';
 
@@ -56,6 +19,7 @@ export async function POST(request: Request) {
 
     // Safely execute bot processing
     try {
+      console.log("update:", update);
       const bot = new Bot(botToken, groqKey);
       await bot.processUpdate(update);
       console.log('The update was processed successfully');

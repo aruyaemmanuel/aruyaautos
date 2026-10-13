@@ -1,31 +1,33 @@
 {
-  "businessName": "YOUR_BUSINESS_NAME",
-  "tagline": "YOUR_BUSINESS_TAGLINE",
-  "overview": "YOUR_BUSINESS_OVERVIEW",
+  "businessName": "Chowry",
+  "tagline": "Delicious, Fresh Meals Delivered Straight to Your Door",
+  "overview": "Chowry is your go-to online spot for authentic, freshly prepared meals including signature Jollof rice, savory Fried rice, rich White rice with stew, tender chicken, turkey, and more. We make ordering quick and seamless through chat, delivering satisfying meals straight to you via WhatsApp or Telegram.",
+  "mainMenuUrl": "https://bivqqlnkjxcoziodsadn.supabase.co/storage/v1/object/sign/chowry/1791753945563.jpg?token=eyJraWQiOiI2ZjdjZWZkOS1hZTYxLTRiMmMtOThiYi0zNjNiMzYxZDAwNDQiLCJhbGciOiJIUzUxMiJ9.eyJ1cmwiOiJjaG93cnkvMTc5MTc1Mzk0NTU2My5qcGciLCJzY29wZSI6ImRvd25sb2FkIiwiaWF0IjoxNzkxNzg3MjQxLCJleHAiOjE4MjMzMjMyNDF9.VHcgbwpflMjkUX8xPkr6FYE3y_7jRw71VNx_KudAjHcCoREZVjWivna4F9Myix01y-z1W9Vx1x2X12eVKyp3qw",
+  "imageUrl": "https://hkpdmrocqgjopbzryemy.supabase.co/storage/v1/object/sign/Chowdry/Bot/1791799280616.jpg?token=eyJraWQiOiJmYmNhMGJjMC0xMGY3LTRjNDgtYWIxMy03NTBiNzhmYThjMzUiLCJhbGciOiJIUzUxMiJ9.eyJ1cmwiOiJDaG93ZHJ5L0JvdC8xNzkxNzk5MjgwNjE2LmpwZyIsInNjb3BlIjoiZG93bmxvYWQiLCJpYXQiOjE3OTE3OTk0OTgsImV4cCI6MTgyMzMzNTQ5OH0.pPOXOdWsf3Mkhnrda6oEMF8ZnqCOtHHNXvTihUqKWI1XxLfcAlJqxkMmZ-CjsifEcm3bixvLmwnkYavkbuNXlw",
   "services": [
     {
-      "name": "YOUR_SERVICE_1_NAME",
-      "description": "YOUR_SERVICE_1_DESCRIPTION"
+      "name": "Direct Meal Delivery",
+      "description": "Order freshly cooked rice dishes, proteins, and sides directly through WhatsApp or Telegram for fast local delivery."
     },
     {
-      "name": "YOUR_SERVICE_2_NAME",
-      "description": "YOUR_SERVICE_2_DESCRIPTION"
+      "name": "Event & Group Ordering",
+      "description": "Custom meal packaging and bulk orders for office lunches, small gatherings, and special occasions."
     },
     {
-      "name": "YOUR_SERVICE_3_NAME",
-      "description": "YOUR_SERVICE_3_DESCRIPTION"
+      "name": "Custom Meal Combos",
+      "description": "Mix and match your favorite staples (Jollof, Fried, or White Rice with Stew) paired with your choice of protein like turkey or chicken."
     }
   ],
   "pricing": {
-    "startingPrice": "YOUR_STARTING_PRICE_OR_PRICING_MODEL",
-    "note": "YOUR_PRICING_NOTE"
+    "startingPrice": "Visit Menu to view prices",
+    "note": "Prices may change, buf changes will be communicated earlier on."
   },
   "cta": {
-    "message": "YOUR_CALL_TO_ACTION_MESSAGE",
+    "message": "Hungry? Place your order now directly on WhatsApp or Telegram for fast delivery!",
     "links": {
-      "booking": "YOUR_BOOKING_LINK",
-      "whatsapp": "YOUR_WHATSAPP_LINK",
-      "website": "YOUR_WEBSITE_LINK"
+      "booking": "https://t.me/chowry_bot",
+      "whatsapp": "https://wa.me/234XXXXXXXXXX",
+      "website": "https://chowry.com"
     }
   }
 }
